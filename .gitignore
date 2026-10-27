@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+# Local document data is persistent user data. Keep it out of source control,
+# but never delete it as part of application operation.
+data/uploads/*
+!data/uploads/.gitkeep
+data/extracted/*
+!data/extracted/.gitkeep
+data/chroma_db/*
+!data/chroma_db/.gitkeep
+data/metadata/*
+!data/metadata/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
